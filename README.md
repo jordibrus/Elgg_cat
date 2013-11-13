@@ -1,8 +1,7 @@
 Elgg_cat
 ========
 
-Repositori de traduccions de la plataforma Elgg al català
-=========================================================
+<strong>Repositori de traduccions al català de la plataforma Elgg</strong>
 
 De traduccions de complements d'Elg al català, n'hi ha moltes.
 De traduccions bones, amb sentit i amb un criteri uniforme, ben poques.
