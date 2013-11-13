@@ -1,24 +1,24 @@
 <?php
 /**
-* Core English Language
+* Nucli en català
 *
 * @package Elgg.Core
-* @subpackage Languages.English
+* @subpackage Languages.Catalan
 */
 
-$english = array(
+$catalan = array(
 /**
-* Sites
+* Llocs
 */
 
-        'item:site' => 'Sites',
+        'item:site' => 'Llocs',
 
 /**
 * Sessions
 */
 
-        'login' => "Log in",
-        'loginok' => "You have been logged in.",
+        'login' => "Inici de sessi&oacute;",
+        'loginok' => "Has iniciat la sessi&oacute; correctament",
         'loginerror' => "We couldn't log you in. Please check your credentials and try again.",
         'login:empty' => "Username/email and password are required.",
         'login:baduser' => "Unable to load your user account.",
