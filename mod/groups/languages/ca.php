@@ -1,61 +1,61 @@
 <?php
 /**
- * Elgg groups plugin language pack
+ * Paquet de llengua pel complement Grups d'Elgg'
  *
  * @package ElggGroups
  */
 
-$english = array(
+$catala = array(
 
 	/**
-	 * Menu items and titles
+	 * Textos i elements del menú
 	 */
-	'groups' => "Groups",
-	'groups:owned' => "Groups I own",
-	'groups:owned:user' => 'Groups %s owns',
-	'groups:yours' => "My groups",
-	'groups:user' => "%s's groups",
-	'groups:all' => "All groups",
-	'groups:add' => "Create a new group",
-	'groups:edit' => "Edit group",
-	'groups:delete' => 'Delete group',
-	'groups:membershiprequests' => 'Manage join requests',
-	'groups:membershiprequests:pending' => 'Manage join requests (%s)',
-	'groups:invitations' => 'Group invitations',
-	'groups:invitations:pending' => 'Group invitations (%s)',
+	'groups' => "Grups",/* */
+	'groups:owned' => "Grups que administro",/* */
+	'groups:owned:user' => 'Grups que administra en/na %s',/* */
+	'groups:yours' => "Grups: En formo part",/* */
+	'groups:user' => "Grups: En/na %s en forma part",/* */
+	'groups:all' => "Grups: Tots",/* */
+	'groups:add' => "Crea un grup nou",/* */
+	'groups:edit' => "Edita el grup",/* */
+	'groups:delete' => 'Esborra el grup',/* */
+	'groups:membershiprequests' => "Gestiona les sol&middot;licituds d'entrada",/* */
+	'groups:membershiprequests:pending' => "Gestiona les (%s) sol&middot;licituds d'entrada",/* */
+	'groups:invitations' => 'Invitacions del grup',/* */
+	'groups:invitations:pending' => 'Invitacions del grup (%s)',/* */
 
-	'groups:icon' => 'Group icon (leave blank to leave unchanged)',
-	'groups:name' => 'Group name',
-	'groups:username' => 'Group short name (displayed in URLs, alphanumeric characters only)',
-	'groups:description' => 'Description',
-	'groups:briefdescription' => 'Brief description',
-	'groups:interests' => 'Tags',
-	'groups:website' => 'Website',
-	'groups:members' => 'Group members',
-	'groups:my_status' => 'My status',
-	'groups:my_status:group_owner' => 'You own this group',
-	'groups:my_status:group_member' => 'You are in this group',
-	'groups:subscribed' => 'Group notifications on',
-	'groups:unsubscribed' => 'Group notifications off',
+	'groups:icon' => 'Logotip del grup (deixa-ho en blanc per no canviar-lo)',/* */
+	'groups:name' => 'Nom del grup',/* */
+	'groups:username' => 'Nom curt del grup (es mostrar&agrave; a les adreces URL, nom&eacute;s car&agrave;cters alfanum&egrave;rics)',/* */
+	'groups:description' => 'Descripci&oacute;',/* */
+	'groups:briefdescription' => 'Descripci&oacute; breu',/* */
+	'groups:interests' => 'Etiquetes',/* */
+	'groups:website' => 'Lloc web',/* */
+	'groups:members' => 'Membres del grup',/* */
+	'groups:my_status' => 'El meu estat',/* */
+	'groups:my_status:group_owner' => 'Administres aquest grup',/* */
+	'groups:my_status:group_member' => "Ets membre d'aquest grup",/* */
+	'groups:subscribed' => 'Tens les notificacions del grup activades',/* */
+	'groups:unsubscribed' => 'Tens les notificacions del grup desactivades',/* */
 
-	'groups:members:title' => 'Members of %s',
-	'groups:members:more' => "View all members",
-	'groups:membership' => "Group membership permissions",
-	'groups:access' => "Access permissions",
-	'groups:owner' => "Owner",
-	'groups:owner:warning' => "Warning: if you change this value, you will no longer be the owner of this group.",
-	'groups:widget:num_display' => 'Number of groups to display',
-	'groups:widget:membership' => 'Group membership',
-	'groups:widgets:description' => 'Display the groups you are a member of on your profile',
-	'groups:noaccess' => 'No access to group',
-	'groups:permissions:error' => 'You do not have the permissions for this',
-	'groups:ingroup' => 'in the group',
-	'groups:cantcreate' => 'You can not create a group. Only admins can.',
-	'groups:cantedit' => 'You can not edit this group',
-	'groups:saved' => 'Group saved',
-	'groups:featured' => 'Featured groups',
-	'groups:makeunfeatured' => 'Unfeature',
-	'groups:makefeatured' => 'Make featured',
+	'groups:members:title' => 'Membres de %s',/* */
+	'groups:members:more' => "Veure totes les persones membres",/* */
+	'groups:membership' => "Permisos de les persones membres",/* */
+	'groups:access' => "Permisos d'acc&eacute;s",/* */ 
+	'groups:owner' => "Administrador/a",/* */
+	'groups:owner:warning' => "Warning: if you change this value, you will no longer be the owner of this group.",/* */
+	'groups:widget:num_display' => 'Quantitat de grups que vols veure',/* */
+	'groups:widget:membership' => 'Membres del grup',/* */
+	'groups:widgets:description' => 'Mostra els grups dels que ets membre al teu perfil',/* */
+	'groups:noaccess' => 'No tens acc&eacute;s al grup',/* */
+	'groups:permissions:error' => 'Aix&ograve; no tens perm&iacute;s per fer-ho',/* */
+	'groups:ingroup' => 'en el grup',/* */
+	'groups:cantcreate' => 'No pots crear cap grup. Nom&eacute;s poden fer-ho les persones que administren el lloc web.',/* */
+	'groups:cantedit' => 'No pots editar aquest grup',/* */
+	'groups:saved' => "S'ha desat el grup",/* */
+	'groups:featured' => 'Grups real&ccedil;ats',/* */
+	'groups:makeunfeatured' => 'Rebaixa',/* */
+	'groups:makefeatured' => 'Real&ccedil;a',/* */
 	'groups:featuredon' => '%s is now a featured group.',
 	'groups:unfeatured' => '%s has been removed from the featured groups.',
 	'groups:featured_error' => 'Invalid group.',
@@ -121,7 +121,7 @@ View and reply to the discussion:
 
 
 	/*
-	 * Access
+	 * Accéss
 	 */
 	'groups:access:private' => 'Closed - Users must be invited',
 	'groups:access:public' => 'Open - Any user may join',
@@ -131,7 +131,7 @@ View and reply to the discussion:
 	'groups:visibility' => 'Who can see this group?',
 
 	/*
-	Group tools
+	Eines del grup
 	*/
 	'groups:enableforum' => 'Enable group discussion',
 	'groups:yes' => 'yes',
@@ -140,7 +140,7 @@ View and reply to the discussion:
 	'groups:lastcomment' => 'Last comment %s by %s',
 
 	/*
-	Group discussion
+	Grup de debat
 	*/
 	'discussion' => 'Discussion',
 	'discussion:add' => 'Add discussion topic',
@@ -245,7 +245,7 @@ or click below to view the group's join requests:
 %s",
 
 	/*
-		Forum river items
+	Elements que apareixen al registre d'activitat sobre el Grup de debat
 	*/
 
 	'river:create:group:default' => '%s created the group %s',
@@ -272,7 +272,7 @@ or click below to view the group's join requests:
 	'groups:whocancreate' => 'Who can create new groups?',
 
 	/**
-	 * Action messages
+	 * Missatges d'acció'
 	 */
 	'group:deleted' => 'Group and group contents deleted',
 	'group:notdeleted' => 'Group could not be deleted',
@@ -296,4 +296,4 @@ or click below to view the group's join requests:
 
 );
 
-add_translation("en", $english);
+add_translation("ca", $catala);
