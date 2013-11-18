@@ -6,37 +6,37 @@
 * @subpackage Languages.Catalan
 */
 
-$catalan = array(
+$catala = array(
 /**
 * Llocs
 */
 
-        'item:site' => 'Llocs',
+        'item:site' => 'Llocs',/**/
 
 /**
-* Sessions
+* Sessió
 */
 
-        'login' => "Inici de sessi&oacute;",
-        'loginok' => "Has iniciat la sessi&oacute; correctament",
-        'loginerror' => "We couldn't log you in. Please check your credentials and try again.",
-        'login:empty' => "Username/email and password are required.",
+        'login' => "Inici de sessi&oacute;",/**/
+        'loginok' => "Has iniciat la sessi&oacute; correctament",/**/
+        'loginerror' => "No podem deixar-te entrar. Comprova les teves dades i torna-ho a provar.",/**/
+        'login:empty' => "&Eacute;s obligatori escriure el nom d'usuari/a o l'adre&ccedil;a electr&ograve;nica.",/**/
         'login:baduser' => "Unable to load your user account.",
         'auth:nopams' => "Internal error. No user authentication method installed.",
 
-        'logout' => "Log out",
-        'logoutok' => "You have been logged out.",
-        'logouterror' => "We couldn't log you out. Please try again.",
+        'logout' => "Tanca la sessi&oacute;",/**/
+        'logoutok' => "Has tancat la sessi&oacute; correctament",/**/
+        'logouterror' => "No podem deixar-te marxar. Torna-ho a provar.",/**/
 
-        'loggedinrequired' => "You must be logged in to view that page.",
-        'adminrequired' => "You must be an administrator to view that page.",
-        'membershiprequired' => "You must be a member of this group to view that page.",
+        'loggedinrequired' => "Cal que hagis iniciat la sessi&oacute; per veure aquesta p&agrave;gina.",/**/
+        'adminrequired' => "Cal que siguis una persona administradora per veure aquesta p&agrave;gina.",/**/
+        'membershiprequired' => "Cal que siguis membre d'aquest grup per veure aquesta p&agrave;gina.",/**/
 
 
 /**
-* Errors
+* Errades
 */
-        'exception:title' => "Fatal Error.",
+        'exception:title' => "Errada fatal.",/**/
         'exception:contact_admin' => 'An unrecoverable error has occurred and has been logged. Contact the site administrator with the following information:',
 
         'actionundefined' => "The requested action (%s) was not defined in the system.",
@@ -1364,4 +1364,4 @@ You cannot reply to this email.",
         "zu" => "Zulu",
 );
 
-add_translation("en",$english);
+add_translation("ca",$catala);
