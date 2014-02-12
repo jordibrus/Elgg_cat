@@ -1,0 +1,26 @@
+<?php
+$language = array (
+  'admin:administer_utilities:feedback' => 'Retroacció del lloc',
+  'item:object:feedback' => 'Retroacció',
+  'feedback:label' => 'Retroacció',
+  'feedback:title' => 'Retroacció',
+  'feedback:admin:title' => 'Retroacció del lloc',
+  'feedback:message' => 'T\'agrada el lloc? No t\'agrada? Tens problemes? Dubtes? Envia\'ns la teva consulta!',
+  'feedback:default:id' => 'Nom i/o adreça electrònica',
+  'feedback:default:txt' => 'Què ens vols dir?',
+  'feedback:mood:' => 'Cap',
+  'feedback:mood:angry' => 'A disgust',
+  'feedback:mood:neutral' => 'Neutre',
+  'feedback:mood:happy' => 'Alegre',
+  'feedback:about:' => 'Cap',
+  'feedback:about:bug_report' => 'Comentar errada',
+  'feedback:about:content' => 'Contingut',
+  'feedback:about:suggestions' => 'Suggeriment',
+  'feedback:about:compliment' => 'Felicitació',
+  'feedback:about:other' => 'Altres',
+  'feedback:list:mood' => 'Com estàs?',
+  'feedback:list:about' => 'Què ens envies?',
+  'feedback:list:page' => 'Pàgina d\'enviament',
+  'feedback:list:from' => 'De',
+);
+add_translation("ca", $language);

@@ -1,0 +1,25 @@
+<?php
+$language = array (
+  'bookmarks' => 'Adreces d\'interès',
+  'bookmarks:add' => 'Afegir una adreça',
+  'bookmarks:edit' => 'Edita l\'adreça',
+  'bookmarks:owner' => 'Adreces d\'interès: %s',
+  'bookmarks:friends' => 'Adreces d\'interès: Contactes',
+  'bookmarks:everyone' => 'Adreces d\'interès: Tot l\'espai',
+  'bookmarks:this' => 'Afegeix aquesta adreça',
+  'bookmarks:this:group' => 'Afegida a %s',
+  'bookmarks:bookmarklet' => 'Fes servir l\'aplicació',
+  'bookmarks:bookmarklet:group' => 'Fes servir l\'aplicació',
+  'bookmarks:inbox' => 'Safata d\'entrada de les adreces d\'interès',
+  'bookmarks:morebookmarks' => 'Més adreces d\'interès',
+  'bookmarks:more' => 'Més adreces d\'interès',
+  'bookmarks:with' => 'Compartida amb',
+  'bookmarks:new' => 'Una nova adreça',
+  'bookmarks:address' => 'Enllaç de l\'adreça d\'interès',
+  'bookmarks:none' => 'No hi ha adreces',
+  'bookmarks:shared' => 'Afegida',
+  'item:object:bookmarks' => 'Adreces d\'interès',
+  'bookmarks:group' => 'Adreces d\'interès',
+  'bookmarks:enablebookmarks' => 'Habilita les adreces d\'interès a les comissions',
+);
+add_translation("ca", $language);

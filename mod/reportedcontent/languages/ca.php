@@ -1,0 +1,25 @@
+<?php
+$language = array (
+  'item:object:reported_content' => 'Elements denunciats',
+  'admin:administer_utilities:reportedcontent' => 'Contingut denunciat',
+  'reportedcontent' => 'Contingut denunciat',
+  'reportedcontent:this' => 'Denuncia això',
+  'reportedcontent:this:tooltip' => 'Denuncia aquesta pàgina a l\'administració',
+  'reportedcontent:none' => 'Això no és contingut denunciat',
+  'reportedcontent:report' => 'Denuncia això',
+  'reportedcontent:title' => 'Títol de la pàgina',
+  'reportedcontent:deleted' => 'El contingut denunciat ha estat esborrat',
+  'reportedcontent:delete' => 'Esborra la denúncia',
+  'reportedcontent:archive' => 'Arxiva la denúncia',
+  'reportedcontent:visit' => 'Visita l\'element denunciat',
+  'reportedcontent:by' => 'Denunciat per',
+  'reportedcontent:objecttitle' => 'Títol de la pàgina',
+  'reportedcontent:objecturl' => 'Adreça de la pàgina',
+  'reportedcontent:reason' => 'Raons de la denúncia',
+  'reportedcontent:description' => 'Per què denuncies això?',
+  'reportedcontent:address' => 'Ubicació de l\'element',
+  'reportedcontent:success' => 'La denúncia ha estat enviat a l\'administració del lloc',
+  'reportedcontent:moreinfo' => 'Més informació',
+  'reportedcontent:user' => 'Denuncia un/a usuari/a',
+);
+add_translation("ca", $language);
