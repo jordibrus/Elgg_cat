@@ -10,17 +10,17 @@ $catala = array(
 	/**
 	 * Textos i elements del menú
 	 */
-	'groups' => "Grups",/* */
-	'groups:owned' => "Grups que administro",/* */
+	'groups' => 'Grups',/* */
+	'groups:owned' => 'Grups que administro',/* */
 	'groups:owned:user' => 'Grups que administra en/na %s',/* */
-	'groups:yours' => "Grups: En formo part",/* */
-	'groups:user' => "Grups: En/na %s en forma part",/* */
-	'groups:all' => "Grups: Tots",/* */
-	'groups:add' => "Crea un grup nou",/* */
-	'groups:edit' => "Edita el grup",/* */
+	'groups:yours' => 'Grups: En formo part',/* */
+	'groups:user' => 'Grups: En/na %s en forma part',/* */
+	'groups:all' => 'Grups: Tots',/* */
+	'groups:add' => 'Crea un grup nou',/* */
+	'groups:edit' => 'Edita el grup',/* */
 	'groups:delete' => 'Esborra el grup',/* */
-	'groups:membershiprequests' => "Gestiona les sol&middot;licituds d'entrada",/* */
-	'groups:membershiprequests:pending' => "Gestiona les (%s) sol&middot;licituds d'entrada",/* */
+	'groups:membershiprequests' => "Gestiona les sol&middot;licituds d\'entrada",/* */
+	'groups:membershiprequests:pending' => "Gestiona les (%s) sol&middot;licituds d\'entrada",/* */
 	'groups:invitations' => 'Invitacions del grup',/* */
 	'groups:invitations:pending' => 'Invitacions del grup (%s)',/* */
 
@@ -34,16 +34,16 @@ $catala = array(
 	'groups:members' => 'Membres del grup',/* */
 	'groups:my_status' => 'El meu estat',/* */
 	'groups:my_status:group_owner' => 'Administres aquest grup',/* */
-	'groups:my_status:group_member' => "Ets membre d'aquest grup",/* */
+	'groups:my_status:group_member' => 'Ets membre d\'aquest grup',/* */
 	'groups:subscribed' => 'Tens les notificacions del grup activades',/* */
 	'groups:unsubscribed' => 'Tens les notificacions del grup desactivades',/* */
 
 	'groups:members:title' => 'Membres de %s',/* */
-	'groups:members:more' => "Veure totes les persones membres",/* */
-	'groups:membership' => "Permisos de les persones membres",/* */
-	'groups:access' => "Permisos d'acc&eacute;s",/* */ 
-	'groups:owner' => "Administrador/a",/* */
-	'groups:owner:warning' => "Warning: if you change this value, you will no longer be the owner of this group.",/* */
+	'groups:members:more' => 'Veure totes les persones membres',/* */
+	'groups:membership' => 'Permisos de les persones membres',/* */
+	'groups:access' => 'Permisos d\'acc&eacute;s',/* */ 
+	'groups:owner' => 'Administrador/a',/* */
+	'groups:owner:warning' => 'Atenci&oacute;: si canvies aix&ograve;, deixar&agrave;s de gestionar aquest grup definitivament.',/* */
 	'groups:widget:num_display' => 'Quantitat de grups que vols veure',/* */
 	'groups:widget:membership' => 'Membres del grup',/* */
 	'groups:widgets:description' => 'Mostra els grups dels que ets membre al teu perfil',/* */
@@ -52,86 +52,86 @@ $catala = array(
 	'groups:ingroup' => 'en el grup',/* */
 	'groups:cantcreate' => 'No pots crear cap grup. Nom&eacute;s poden fer-ho les persones que administren el lloc web.',/* */
 	'groups:cantedit' => 'No pots editar aquest grup',/* */
-	'groups:saved' => "S'ha desat el grup",/* */
-	'groups:featured' => 'Grups real&ccedil;ats',/* */
+	'groups:saved' => 'S\'ha desat el grup',/* */
+	'groups:featured' => 'Grups destacats',/* */
 	'groups:makeunfeatured' => 'Rebaixa',/* */
-	'groups:makefeatured' => 'Real&ccedil;a',/* */
-	'groups:featuredon' => '%s is now a featured group.',
-	'groups:unfeatured' => '%s has been removed from the featured groups.',
-	'groups:featured_error' => 'Invalid group.',
-	'groups:joinrequest' => 'Request membership',
-	'groups:join' => 'Join group',
-	'groups:leave' => 'Leave group',
-	'groups:invite' => 'Invite friends',
-	'groups:invite:title' => 'Invite friends to this group',
-	'groups:inviteto' => "Invite friends to '%s'",
-	'groups:nofriends' => "You have no friends left who have not been invited to this group.",
-	'groups:nofriendsatall' => 'You have no friends to invite!',
-	'groups:viagroups' => "via groups",
-	'groups:group' => "Group",
-	'groups:search:tags' => "tag",
-	'groups:search:title' => "Search for groups tagged with '%s'",
-	'groups:search:none' => "No matching groups were found",
-	'groups:search_in_group' => "Search in this group",
-	'groups:acl' => "Group: %s",
+	'groups:makefeatured' => 'Destaca',/* */
+	'groups:featuredon' => '%s &eacute;s un grup destacat.',
+	'groups:unfeatured' => '%s ha deixat de ser un grup destacat.',
+	'groups:featured_error' => 'Grup no v&agrave;lid.',
+	'groups:joinrequest' => 'Sol&middot;licita l\'entrada',
+	'groups:join' => 'Entra al grup',
+	'groups:leave' => 'Surt del grup',
+	'groups:invite' => 'Convida altres persones',
+	'groups:invite:title' => 'Convida altres persones a formar part del grup',
+	'groups:inviteto' => 'Convida persones a "%s"',
+	'groups:nofriends' => 'No tens contactes que puguin entrar a formar part del grup.',
+	'groups:nofriendsatall' => 'No tens contactes per convidar!',
+	'groups:viagroups' => 'via grups',
+	'groups:group' => 'Grup',
+	'groups:search:tags' => 'etiqueta',
+	'groups:search:title' => 'Cerca grups amb l\'etiqueta "%s"',
+	'groups:search:none' => 'No s\'han trobat grups amb aquests criteris',
+	'groups:search_in_group' => 'Cerca en aquest grup',
+	'groups:acl' => 'Grup: %s',
 
-	'discussion:notification:topic:subject' => 'New group discussion post',
+	'discussion:notification:topic:subject' => 'Nou tema de debat al grup',
 	'groups:notification' =>
-'%s added a new discussion topic to %s:
+'En/na %s ha publicat un nou tema de debat a %s:
 
 %s
 %s
 
-View and reply to the discussion:
+Veure i respondre el debat:
 %s
 ',
 
 	'discussion:notification:reply:body' =>
-'%s replied to the discussion topic %s in the group %s:
+'En/na %s ha respost al debat %s del grup %s:
 
 %s
 
-View and reply to the discussion:
+Veure i respondre el debat:
 %s
 ',
 
-	'groups:activity' => "Group activity",
-	'groups:enableactivity' => 'Enable group activity',
-	'groups:activity:none' => "There is no group activity yet",
+	'groups:activity' => 'Activitat del grup',
+	'groups:enableactivity' => 'Habilita el registre d\'activitat del grup',
+	'groups:activity:none' => 'Encara no hi ha hagut activitat',
 
-	'groups:notfound' => "Group not found",
-	'groups:notfound:details' => "The requested group either does not exist or you do not have access to it",
+	'groups:notfound' => 'No es troba el grup',
+	'groups:notfound:details' => 'El grup sol&middot;licitat no existeix o no tens permis per a veure\'l',
 
-	'groups:requests:none' => 'There are no current membership requests.',
+	'groups:requests:none' => 'No hi ha sol&middot;licituds d\'entrada.',
 
-	'groups:invitations:none' => 'There are no current invitations.',
+	'groups:invitations:none' => 'No hi ha invitacions actives.',
 
-	'item:object:groupforumtopic' => "Discussion topics",
+	'item:object:groupforumtopic' => 'Debat i comunicaci&oacute;',
 
-	'groupforumtopic:new' => "Add discussion post",
+	'groupforumtopic:new' => 'Inicia un debat',
 
-	'groups:count' => "groups created",
-	'groups:open' => "open group",
-	'groups:closed' => "closed group",
-	'groups:member' => "members",
-	'groups:searchtag' => "Search for groups by tag",
+	'groups:count' => 'grups creats',
+	'groups:open' => 'grup lliure',
+	'groups:closed' => 'grup tancat',
+	'groups:member' => 'membres',
+	'groups:searchtag' => 'Cerca de grups per etiqueta',
 
-	'groups:more' => 'More groups',
-	'groups:none' => 'No groups',
+	'groups:more' => 'M&eacute;s grups',
+	'groups:none' => 'Sense grups',
 
 
 	/*
-	 * Accéss
+	 * Accés
 	 */
-	'groups:access:private' => 'Closed - Users must be invited',
-	'groups:access:public' => 'Open - Any user may join',
-	'groups:access:group' => 'Group members only',
-	'groups:closedgroup' => 'This group has a closed membership.',
-	'groups:closedgroup:request' => 'To ask to be added, click the "request membership" menu link.',
-	'groups:visibility' => 'Who can see this group?',
+	'groups:access:private' => 'Tancat - Cal una invitaci&oacute; per ser-ne membre',
+	'groups:access:public' => 'Lliure - Qualsevol persona en pot ser membre',
+	'groups:access:group' => 'Només les persones membres',
+	'groups:closedgroup' => 'Aquest grup &eacute;s tancat, t\'hi han de convidar.',
+	'groups:closedgroup:request' => 'Per demanar ser membre d\'aquest grup, clica l\'enlla&ccedil; &quot;Sol&quot;licitud d\'entrada&quot; del men&uacute;.',
+	'groups:visibility' => 'Qui pot veure aquest grup?',
 
 	/*
-	Eines del grup
+	* Eines del grup
 	*/
 	'groups:enableforum' => 'Enable group discussion',
 	'groups:yes' => 'yes',
@@ -140,61 +140,61 @@ View and reply to the discussion:
 	'groups:lastcomment' => 'Last comment %s by %s',
 
 	/*
-	Grup de debat
+	Debat
 	*/
-	'discussion' => 'Discussion',
-	'discussion:add' => 'Add discussion topic',
-	'discussion:latest' => 'Latest discussion',
-	'discussion:group' => 'Group discussion',
-	'discussion:none' => 'No discussion',
-	'discussion:reply:title' => 'Reply by %s',
+	'discussion' => 'Debat i comunicaci&oacute',
+	'discussion:add' => 'Inicia un debat',
+	'discussion:latest' => 'Darrer debat',
+	'discussion:group' => 'Debat i comunicaci&oacute',
+	'discussion:none' => 'No hi ha debat',
+	'discussion:reply:title' => 'Respost per %s',
 
-	'discussion:topic:created' => 'The discussion topic was created.',
-	'discussion:topic:updated' => 'The discussion topic was updated.',
-	'discussion:topic:deleted' => 'Discussion topic has been deleted.',
+	'discussion:topic:created' => 'Debat en marxa.',
+	'discussion:topic:updated' => 'S\'ha actualitzat el debat.',
+	'discussion:topic:deleted' => 'Debat esborrat.',
 
-	'discussion:topic:notfound' => 'Discussion topic not found',
-	'discussion:error:notsaved' => 'Unable to save this topic',
-	'discussion:error:missing' => 'Both title and message are required fields',
-	'discussion:error:permissions' => 'You do not have permissions to perform this action',
-	'discussion:error:notdeleted' => 'Could not delete the discussion topic',
+	'discussion:topic:notfound' => 'No es troba el debat',
+	'discussion:error:notsaved' => 'No es pot desar el debat',
+	'discussion:error:missing' => 'Els camps de t&iacute;tol i missatge s&oacute;n obligatoris',
+	'discussion:error:permissions' => 'No tens perm&iacute;s per fer aix&ograve;',
+	'discussion:error:notdeleted' => 'No es pot esborrar el debat',
 
-	'discussion:reply:deleted' => 'Discussion reply has been deleted.',
-	'discussion:reply:error:notdeleted' => 'Could not delete the discussion reply',
+	'discussion:reply:deleted' => 'La resposta al debat ha estat esborrada.',
+	'discussion:reply:error:notdeleted' => 'No es pot esborrar la resposta',
 
-	'reply:this' => 'Reply to this',
+	'reply:this' => 'Respon a aix&ograve;',
 
-	'group:replies' => 'Replies',
-	'groups:forum:created' => 'Created %s with %d comments',
-	'groups:forum:created:single' => 'Created %s with %d reply',
-	'groups:forum' => 'Discussion',
-	'groups:addtopic' => 'Add a topic',
-	'groups:forumlatest' => 'Latest discussion',
-	'groups:latestdiscussion' => 'Latest discussion',
-	'groups:newest' => 'Newest',
-	'groups:popular' => 'Popular',
-	'groupspost:success' => 'Your reply was succesfully posted',
-	'groups:alldiscussion' => 'Latest discussion',
-	'groups:edittopic' => 'Edit topic',
-	'groups:topicmessage' => 'Topic message',
-	'groups:topicstatus' => 'Topic status',
-	'groups:reply' => 'Post a comment',
-	'groups:topic' => 'Topic',
-	'groups:posts' => 'Posts',
-	'groups:lastperson' => 'Last person',
-	'groups:when' => 'When',
-	'grouptopic:notcreated' => 'No topics have been created.',
-	'groups:topicopen' => 'Open',
-	'groups:topicclosed' => 'Closed',
-	'groups:topicresolved' => 'Resolved',
-	'grouptopic:created' => 'Your topic was created.',
-	'groupstopic:deleted' => 'The topic has been deleted.',
-	'groups:topicsticky' => 'Sticky',
-	'groups:topicisclosed' => 'This discussion is closed.',
-	'groups:topiccloseddesc' => 'This discussion is closed and is not accepting new comments.',
-	'grouptopic:error' => 'Your group topic could not be created. Please try again or contact a system administrator.',
-	'groups:forumpost:edited' => "You have successfully edited the forum post.",
-	'groups:forumpost:error' => "There was a problem editing the forum post.",
+	'group:replies' => 'Respostes',
+	'groups:forum:created' => 'Creat %s amb %d comentaris',
+	'groups:forum:created:single' => 'Creat %s amb %d respostes',
+	'groups:forum' => 'Debat',
+	'groups:addtopic' => 'Afegeix un debat',
+	'groups:forumlatest' => 'Darrer debat',
+	'groups:latestdiscussion' => 'Darrer debat',
+	'groups:newest' => 'Els m&eacute;s nous',
+	'groups:popular' => 'Els m&eacute;s populars ',
+	'groupspost:success' => 'La teva resposta s\'ha publicat correctament',
+	'groups:alldiscussion' => 'Darrer debat',
+	'groups:edittopic' => 'Edita',
+	'groups:topicmessage' => 'Missatge',
+	'groups:topicstatus' => 'Estat',
+	'groups:reply' => 'Publica un apunt',
+	'groups:topic' => 'Tema',
+	'groups:posts' => 'Apunts',
+	'groups:lastperson' => 'Darrera persona',
+	'groups:when' => 'Quan',
+	'grouptopic:notcreated' => 'No s\han creat temes.',
+	'groups:topicopen' => 'Obert',
+	'groups:topicclosed' => 'Tancat',
+	'groups:topicresolved' => 'Resolt',
+	'grouptopic:created' => 'El tema s\'ha creat.',
+	'groupstopic:deleted' => 'El tema s\'ha esborrat.',
+	'groups:topicsticky' => 'Enganx&oacute;s',
+	'groups:topicisclosed' => 'Aquest debat està tancat.',
+	'groups:topiccloseddesc' => 'Aquest debat est&agrave; tancat i no s\'accepten m&eacute;s comentaris.',
+	'grouptopic:error' => 'No s\'ha pogut crear el debat. Intenta-ho un altre cop o contacta amb administraci&oacute;.',
+	'groups:forumpost:edited' => 'S\'ha editat correctament l\'apunt al debat.',
+	'groups:forumpost:error' => 'Hi ha hagut algun problema amb l\'edici&oacute;.',
 
 
 	'groups:privategroup' => 'This group is closed. Requesting membership.',
